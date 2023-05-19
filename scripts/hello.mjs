@@ -1,7 +1,7 @@
 #!/usr/bin/env zx
 
 let msg = process.argv[3]
-if(msg === null) {
+if( !msg ) {
   msg = 'World'
 }
-console.log('Hello' + msg)
+console.log('Hello ' + msg)
