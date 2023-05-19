@@ -1,6 +1,6 @@
 #!/usr/bin/env zx
 
-let msg = process.argv[0]
+let msg = process.argv[3]
 if(msg === null) {
   msg = 'World'
 }
